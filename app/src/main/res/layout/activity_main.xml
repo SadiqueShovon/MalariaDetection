@@ -19,33 +19,47 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="239dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="32dp"
-        android:background="#B9CCEA"
-        android:backgroundTint="#FBFBAB"
-        android:foregroundTint="#80D8FF"
-        android:text="Upload Your Picture here"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
-
     <Button
-        android:id="@+id/button2"
-        android:layout_width="104dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="300dp"
-        android:backgroundTint="#84FFFF"
-        android:text="See Result"
+        android:id="@+id/classify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="50dp"
+        android:layout_marginBottom="72dp"
+        android:background="#fff"
+        android:text="Classify"
+        android:textColor="#000"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/classify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classifytext"
+        app:layout_constraintVertical_bias="0.435"></ImageView>
+
+    <TextView
+        android:id="@+id/classifytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="Click below to select a Image"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 </androidx.constraintlayout.widget.ConstraintLayout>
