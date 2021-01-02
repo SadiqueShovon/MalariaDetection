@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">MalariaDetection</string>
+    <string name="app_name">ProfileUI</string>
+    <string name="full_name">Mr. X</string>
+    <string name="back_to_home">Back to\nHome</string>
+    <string name="username_title">Username</string>
+    <string name="username">\@sadique_shovon</string>
+    <string name="phone_title">Phone</string>
+    <string name="phone">+000 00 000 000</string>
+    <string name="address_title">Address</string>
+    <string name="address">City, Street</string>
+    <string name="email_title">Email</string>
+    <string name="email">sadiqueshovon007@gmail.com</string>
+    <string name="_880_1234567890">+880 1234567890</string>
+    <string name="xyz_gmail_com">xyz@gmail.com</string>
+    <string name="mr_x">MR. X</string>
+    <string name="name">Mr. X</string>
+    <string name="blood_group">Blood Group: O+</string>
+    <string name="Circle">Circle</string>
+    <string name="profile">profile</string>
+
 </resources>
